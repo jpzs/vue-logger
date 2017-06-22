@@ -23,7 +23,7 @@ rollup.rollup({
 		return write('dist/vue-logger.js', bundle.generate({
 			format: 'umd',
 			banner: banner,
-			moduleName: 'VueLogger'
+			moduleName: 'vueLogger'
 		}).code, bundle);
 	})
 	.then(function (bundle) {
