@@ -18,7 +18,7 @@ vLogger.install = function (Vue, options) {
     levels: ['log', 'warn', 'debug']
   },
       key,
-      key;
+      level;
   if (options) {
     for (var _iterator = Object.keys(options), _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
       if (_isArray) {

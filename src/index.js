@@ -5,7 +5,7 @@ vLogger.install = function(Vue, options) {
       prefix: '',
       levels: ['log', 'warn', 'debug']
     },
-    key, key;
+    key, level;
   if (options) {
     for (key of Object.keys(options)) {
       if (key === 'levels') {
